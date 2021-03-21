@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./html.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <ul type="square">
+        <li><a href="#ol">Listas Ordenadas</a>
+            <ul type="circle">
+                <li><a href="#1">Usando números</a>
+                <li><a href="#A">Usando letras maiúsculas</a>
+                <li><a href="#a">Usando letras minúsculas</a>
+                <li><a href="#I">Usando números romanos maiusculos</a>
+                <li><a href="#i">Usando números romanos minúsculos</a>
+            </ul>
+        <li><a href="#ul">Listas não ordenadas</a>
+        <ul type="disc">
+            <li><a href="#square">Usando square</a>
+            <li><a href="#circle">Usando circle</a>
+            <li><a href="#disc">Usando disc</a>
+        </ul>
+    </ul>
+    
+    <h2><a name="ol">Listas Ordenadas</a></h2>
+    <p>
+        Para criar listas ordenadas, é usada abre tag &lt;ol&gt; e fecha tag &lt;/ol&gt;, e dentro dela para para inserir os itens, é usada abre tag &lt;li&gt;, com o <em>HTML5</em> não é obrigatório fechar a tag &lt;/li&gt;.<br>Também é possível personalizar a lista, usando o parametro type="", e dentro das aspas 1, A, a, I, i.
+    </p>
+
+    <h3><a name="1">Lista ordenada com número:</a></h3><pre>
+        <code>&lt;ol type="1"&gt;
+        &lt;li&gt;Acordar&lt;/li&gt;
+        &lt;li&gt;Escovar os dentes&lt;/li&gt;
+        &lt;li&gt;Tomar café da  manhã&lt;/li&gt;
+        &lt;/ol&gt;</code></pre>
+        Como Fica:
+        <ol type="1">
+            <li>acordar</li>
+            <li>escovar os dentes</li>
+            <li>Tomar café da manhã</li>
+        </ol>    
+
+    <h3><a name="A">Lista ordenada com letras maiúsculas:</a></h3><pre>
+        <code>&lt;ol type="A"&gt;
+        &lt;li&gt;Acordar&lt;/li&gt;
+        &lt;li&gt;Escovar os dentes&lt;/li&gt;
+        &lt;li&gt;Tomar café da  manhã&lt;/li&gt;
+        &lt;/ol&gt;</code></pre>
+        Como Fica:
+        <ol type="A">
+            <li>acordar</li>
+            <li>escovar os dentes</li>
+            <li>Tomar café da manhã</li>
+        </ol>    
+
+    <h3><a name="a">Lista ordenada com letras minúsculas:</a></h3><pre>
+        <code>&lt;ol type="a"&gt;
+        &lt;li&gt;Acordar&lt;/li&gt;
+        &lt;li&gt;Escovar os dentes&lt;/li&gt;
+        &lt;li&gt;Tomar café da  manhã&lt;/li&gt;
+        &lt;/ol&gt;</code></pre>
+        Como Fica:
+        <ol type="a">
+            <li>acordar</li>
+            <li>escovar os dentes</li>
+            <li>Tomar café da manhã</li>
+        </ol>    
+
+    <h3><a name="I">Lista ordenada com números romanos maiúsculos:</a></h3><pre>
+        <code>&lt;ol type="I"&gt;
+        &lt;li&gt;Acordar&lt;/li&gt;
+        &lt;li&gt;Escovar os dentes&lt;/li&gt;
+        &lt;li&gt;Tomar café da  manhã&lt;/li&gt;
+        &lt;/ol&gt;</code></pre>
+        Como Fica:
+        <ol type="I">
+            <li>acordar</li>
+            <li>escovar os dentes</li>
+            <li>Tomar café da manhã</li>
+        </ol>    
+
+    <h3><a name="i">Lista ordenada com números romanos minúsculos:</a></h3><pre>
+        <code>&lt;ol type="i"&gt;
+        &lt;li&gt;Acordar&lt;/li&gt;
+        &lt;li&gt;Escovar os dentes&lt;/li&gt;
+        &lt;li&gt;Tomar café da  manhã&lt;/li&gt;
+        &lt;/ol&gt;</code></pre>
+        Como Fica:
+        <ol type="i">
+            <li>acordar</li>
+            <li>escovar os dentes</li>
+            <li>Tomar café da manhã</li>
+        </ol>
+
+    <h2><a name="ul">Listas não ordenadas</a></h2>
+    <p>
+        Para criar listas não ordenadas, é usada abre tag &lt;ul&gt; e fecha tag &lt;/ul&gt;, e dentro dela para para inserir os itens, é usada abre tag &lt;li&gt;, com o <em>HTML5</em> não é obrigatório fechar a tag &lt;/li&gt;.<br>Também é possível personalizar a lista, usando o parametro type="", e dentro das aspas circle, square, disc.
+    </p>
+    <h3><a name="square">Lista não ordenada com square:</a></h3><pre>
+    <code>&lt;ul type="square"&gt;
+    &lt;li&gt;Pão&lt;/li&gt;
+    &lt;li&gt;Leite&lt;/li&gt;
+    &lt;/ul&gt;</code></pre>
+    Como Fica:
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+    </ul>
+
+    <h3><a name="circle">Lista não ordenada com circle:</a></h3><pre>
+    <code>&lt;ul type="circle"&gt;
+    &lt;li&gt;Pão&lt;/li&gt;
+    &lt;li&gt;Leite&lt;/li&gt;
+    &lt;/ul&gt;</code></pre>
+    Como Fica:
+    <ul type="circle">
+        <li>Pão</li>
+        <li>Leite</li>
+    </ul>
+    
+    <h3><a name="disc">Lista não ordenada com disc:</a></h3><pre>
+    <code>&lt;ul type="disc"&gt;
+    &lt;li&gt;Pão&lt;/li&gt;
+    &lt;li&gt;Leite&lt;/li&gt;
+    &lt;/ul&gt;</code></pre>
+    Como Fica:
+    <ul type="disc">
+        <li>Pão</li>
+        <li>Leite</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Visual basic</li>
+            <li>Clipper</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="3">
+            <li>javascript</li>
+            <li>php</li>
+        </ol>
+    </ol>
+    <h2>Lista de livros</h2>
+    <ol>
+        <li>Infância</li>
+        <ul type="disc">
+            <li>As mil e uma noites</li>
+            <li>Guia do muchileiro das galáxias</li>
+        </ul>
+        <li>Adulto</li>
+        <ul type="disc">
+            <li>Do mil ao milhão</li>
+            <li>A lógica do Cisne Negro</li>
+        </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação de conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação de design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>
