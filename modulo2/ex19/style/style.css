@@ -21,3 +21,20 @@ h1#principal {
 h2 {
     color: rgb(23, 143, 23);
 }
+
+.basico {
+    color: #329c32;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: #9a9c32;
+}
+
+.avancado {
+    color: #9c3232;
+}
+
+.destaque {
+    background-color: rgba(230, 230, 26, 0.596);
+}
